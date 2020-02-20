@@ -9,7 +9,7 @@ Gem::Specification.new do |spec|
   spec.email         = ['pagekit@tnypxl.com']
 
   spec.summary       = 'PageKit is a page object framework for Selenium WebDriver and Watir'
-  spec.homepage      = "TODO: Put your gem's website or public repo URL here."
+  spec.homepage      = nil
   spec.license       = 'MIT'
   spec.required_ruby_version = Gem::Requirement.new('>= 2.3.0')
   # spec.metadata['allowed_push_host'] = "TODO: Set to 'http://mygemserver.com'"
@@ -28,4 +28,6 @@ Gem::Specification.new do |spec|
 
   spec.add_dependency 'watir'
   spec.add_dependency 'selenium-webdriver'
+
+  spec.add_development_dependency 'rubocop'
 end
